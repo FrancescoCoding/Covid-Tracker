@@ -20,4 +20,7 @@ A public COVID-19 API was used to retreive the latest information: https://covid
 ## Challenges
 This project has allowed me to learn yet another popular mobile framework.
 It was fun to go back to vanilla JavaScript and not having to use React for once.
-The only challenge I found was optimizing the nested Ionic lists and making sure that every country and exception was properly validated. Other than that, I really enjoyed working with Ionic and will be using it in the future. 👨‍💻
+The only challenge I found was optimizing the nested Ionic lists and making sure that every country and exception was properly validated. Other than that, I really enjoyed working with Ionic and will be using it in the future. 
+
+# 👨‍💻 Covid Tracker Ionic
+# Francesco Gruosso
