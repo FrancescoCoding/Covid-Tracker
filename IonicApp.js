@@ -53,7 +53,7 @@ async function presentToast() {
   toast.message = "Your settings have been saved.";
   toast.duration = 2000;
 
-  document.body.appendChild(toast);
+  document.querySelector("ion-app").appendChild(toast);
   return toast.present();
 }
 
