@@ -1,5 +1,3 @@
-/** @format */
-
 // DOM SELECTORS
 let namesContainer = document.querySelector("#main-card");
 const nameInput = document.querySelector("#lbl-input");
