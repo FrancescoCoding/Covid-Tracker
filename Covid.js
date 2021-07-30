@@ -1,5 +1,3 @@
-/** @format */
-
 class Covid {
   async getData(userInput, card, cardContainer) {
     const response = await fetch(`https://covid-api.mmediagroup.fr/v1/cases`);
