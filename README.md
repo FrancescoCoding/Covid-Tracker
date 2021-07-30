@@ -9,7 +9,7 @@ To retrieve the current COVID information, some other technologies and skills in
 - Created a customized dark mode and related toggle
 - Fetched images dynamically according to each country from the Unsplash API
 - Fetch API
-- Promises (with async & await)
+- Promises (async & await)
 - Classes handling
 - Error handling
 - Local storage handling
