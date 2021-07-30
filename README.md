@@ -3,7 +3,7 @@ Simple app that allows the user to track the current number of COVID cases, reco
 
 ## Technologies Used
 This app was build with HTML5, CSS3, vanilla JavaScript, and the Ionic Framework.
-To retrieve the current COVID information, some other technologies included in the project are:
+To retrieve the current COVID information, some other technologies and skills included in the project are:
 
 - Handling mobile differences between Android and iOS
 - Created a customized dark mode and related toggle
