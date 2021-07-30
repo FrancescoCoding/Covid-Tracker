@@ -1,5 +1,5 @@
 # Covid-Tracker-Ionic-md-iOS 🦠😷
-Simple app that allows the user to track the current number of COVID cases, recovered, and deaths, in most existing country and regions.
+Simple app that allows the user to track the current number of COVID cases, recovered, and deaths, in most existing countries and regions.
 
 ## Technologies Used
 This app was build with HTML5, CSS3, vanilla JavaScript, and the Ionic Framework.
