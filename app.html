@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Ionic CDN -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
+  <!-- Open sans import -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Import custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://abload.de/img/vidz1kr1.png">
+
+  <title>COVID Tracker</title>
+</head>
+
+<body>
+  <!-- <ion-app> surrounds the app components -->
+  <ion-app>
+
+    <!-- Contains the whole page -->
+    <div class="ion-page" id="main">
+      <!-- HEADER -->
+      <ion-header>
+        <ion-toolbar id="toolbar" color="primary">
+          <ion-buttons slot="start">
+            <ion-title" id="title">COVID Tracker</ion-title>
+          </ion-buttons>
+          <ion-buttons slot="end" class="pr2">
+            <i id="moon" class="fas fa-moon"></i>
+            <ion-toggle  id="dark-toggle" mode="md" color="dark"></ion-toggle>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header> <!-- End of header -->
+
+      <!-- BODY -->
+      <!-- Add padding (1rem default) -->
+      <ion-content class="ion-padding ion-justify-content-center"> 
+        
+        <!-- Ion item -->
+        <ion-item id="container" class="ion-margin">
+          <!-- Icon -->
+          <ion-thumbnail slot="start">
+            <img src="https://abload.de/img/vidz1kr1.png">
+          </ion-thumbnail>
+          <!-- Name input and label-->
+          <ion-label color="tertiary" position="floating">Search Country</ion-label>
+          <ion-input type="text" id="lbl-input"></ion-input>
+        </ion-item>
+
+        <!-- Ion button -->
+        <ion-button type="submit" id="main-button" class="ion-margin" expand="block">Current cases</ion-button>
+
+        <!-- Hidden container -->
+        <ion-card id="main-card" class="ion-hide">
+        </ion-card>
+      </ion-content> <!-- End of content (body) -->
+
+    </div>
+  </ion-app>
+
+  <!-- Import JavaScript files -->
+  <script src="./Covid.js"></script>
+  <script src="./IonicApp.js"></script>
+
+</body>
+</html>
