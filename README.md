@@ -1,5 +1,6 @@
 # Covid-Tracker-Ionic-md-iOS 🦠😷
 Simple app that allows the user to track the current number of COVID cases, recovered, and deaths, in most existing countries and regions.
+
 [Live Demo](https://www.francescogruosso.xyz/covid/app)
 
 ## Technologies Used
