@@ -21,6 +21,8 @@ class Covid {
       const usa = /^USA$/gim;
       const taiwan = /taiwan/gim;
 
+      userInput = userInput.trim();
+
       if (us.test(userInput) || usa.test(userInput)) {
         userInput = "US";
       }
