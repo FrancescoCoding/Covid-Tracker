@@ -290,7 +290,7 @@ body.dark ion-card-content div {
     transition: all 1s;
   }
   body.dark {
-    background: rgb(187, 187, 187);
+    background: rgb(255, 255, 255);
     transition: all 1s;
   }
 
