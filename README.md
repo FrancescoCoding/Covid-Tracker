@@ -8,6 +8,7 @@ This app was built with HTML5, CSS3, vanilla JavaScript, and the Ionic Framework
 To retrieve the current COVID information, some other technologies and skills included in the project are:
 
 - Handling mobile differences between Android and iOS
+- Apache Cordova
 - Created a customized dark mode and related toggle
 - Fetched images dynamically according to each country from the Unsplash API
 - Fetch API
