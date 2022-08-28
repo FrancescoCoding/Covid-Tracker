@@ -1,6 +1,8 @@
 # Covid Tracker created with the Ionic Framework for Android and iOS. 🦠😷
 Simple app that allows the user to track the current number of COVID cases, recovered, and deaths, in most existing countries and regions.
 
+A public COVID-19 API is used to retrieve the latest information: https://covid-api.mmediagroup.fr/v1/cases.
+
 [Live Demo](https://www.francescogruosso.xyz/covid/app)
 
 ## Technologies Used
@@ -17,8 +19,6 @@ To retrieve the current COVID information, some other technologies and skills in
 - Error handling
 - Local storage handling
 - Unit testing
-
-A public COVID-19 API was used to retrieve the latest information: https://covid-api.mmediagroup.fr/v1/cases.
 
 ![image](https://user-images.githubusercontent.com/64712227/135275867-9551cb37-21da-495d-b8c9-1084d4ba24c3.png)
 
