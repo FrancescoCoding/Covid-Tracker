@@ -6,7 +6,7 @@ A public COVID-19 API is used to retrieve the latest information: https://covid-
 [Live Demo](https://www.francescogruosso.xyz/covid/app)
 
 ## Technologies Used
-This app was built with HTML5, CSS3, vanilla JavaScript, and the Ionic Framework.
+This app was built with **_HTML5_**, **_CSS3_**, vanilla **_JavaScript_**, and the **_Ionic_** Framework.
 To retrieve the current COVID information, some other technologies and skills included in the project are:
 
 - Handling mobile differences between Android and iOS
